@@ -12,13 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EEA5BE92
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Fida.ServiceModel", "Sangmado.Fida.ServiceModel\Sangmado.Fida.ServiceModel.csproj", "{1847D330-8B85-481E-8441-0A96CE612496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Fida.Messaging", "Sangmado.Fida.Messaging\Sangmado.Fida.Messaging.csproj", "{27635E7E-0F43-46B8-B957-92790F14AEB2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Fida.Messages", "Sangmado.Fida.Messages\Sangmado.Fida.Messages.csproj", "{789283B2-A2F4-45BD-893F-2DB89BA5404E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Fida.ServiceModelTestActor", "Tests\Sangmado.Fida.ServiceModelTestActor\Sangmado.Fida.ServiceModelTestActor.csproj", "{80BF9CE7-E38B-4798-B418-EB3EADE90031}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Fida.Messaging", "Sangmado.Fida.Messaging\Sangmado.Fida.Messaging.csproj", "{27635E7E-0F43-46B8-B957-92790F14AEB2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Fida.ServiceModelTestMaster", "Tests\Sangmado.Fida.ServiceModelTestMaster\Sangmado.Fida.ServiceModelTestMaster.csproj", "{2C82E3E2-E1ED-4F8B-AC5A-15730311C6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Fida.ServiceModelTestActor", "Tests\Sangmado.Fida.ServiceModelTestActor\Sangmado.Fida.ServiceModelTestActor.csproj", "{80BF9CE7-E38B-4798-B418-EB3EADE90031}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,28 +30,28 @@ Global
 		{1847D330-8B85-481E-8441-0A96CE612496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1847D330-8B85-481E-8441-0A96CE612496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1847D330-8B85-481E-8441-0A96CE612496}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{789283B2-A2F4-45BD-893F-2DB89BA5404E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{789283B2-A2F4-45BD-893F-2DB89BA5404E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{789283B2-A2F4-45BD-893F-2DB89BA5404E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{789283B2-A2F4-45BD-893F-2DB89BA5404E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27635E7E-0F43-46B8-B957-92790F14AEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C82E3E2-E1ED-4F8B-AC5A-15730311C6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C82E3E2-E1ED-4F8B-AC5A-15730311C6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C82E3E2-E1ED-4F8B-AC5A-15730311C6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C82E3E2-E1ED-4F8B-AC5A-15730311C6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BF9CE7-E38B-4798-B418-EB3EADE90031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{80BF9CE7-E38B-4798-B418-EB3EADE90031} = {EEA5BE92-2C2F-4CF4-8530-CDF52AB24108}
 		{2C82E3E2-E1ED-4F8B-AC5A-15730311C6FC} = {EEA5BE92-2C2F-4CF4-8530-CDF52AB24108}
+		{80BF9CE7-E38B-4798-B418-EB3EADE90031} = {EEA5BE92-2C2F-4CF4-8530-CDF52AB24108}
 	EndGlobalSection
 EndGlobal
