@@ -47,8 +47,8 @@
     <Reference Include="Sangmado.Inka.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sangmado.Inka.Logging.1.0.0.0\lib\net46\Sangmado.Inka.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="Sangmado.Inka.Serialization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sangmado.Inka.Serialization.1.0.0.0\lib\net46\Sangmado.Inka.Serialization.dll</HintPath>
+    <Reference Include="Sangmado.Inka.Serialization, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sangmado.Inka.Serialization.1.0.2.0\lib\net46\Sangmado.Inka.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Sangmado.Inka.Serialization.ProtocolBuffers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sangmado.Inka.Serialization.ProtocolBuffers.1.0.0.0\lib\net46\Sangmado.Inka.Serialization.ProtocolBuffers.dll</HintPath>
