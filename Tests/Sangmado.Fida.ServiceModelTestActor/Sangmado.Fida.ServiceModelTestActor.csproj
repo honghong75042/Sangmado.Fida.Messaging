@@ -70,10 +70,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sangmado.Fida.Messages\Sangmado.Fida.Messages.csproj">
-      <Project>{789283b2-a2f4-45bd-893f-2db89ba5404e}</Project>
-      <Name>Sangmado.Fida.Messages</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Sangmado.Fida.Messaging\Sangmado.Fida.Messaging.csproj">
       <Project>{27635e7e-0f43-46b8-b957-92790f14aeb2}</Project>
       <Name>Sangmado.Fida.Messaging</Name>

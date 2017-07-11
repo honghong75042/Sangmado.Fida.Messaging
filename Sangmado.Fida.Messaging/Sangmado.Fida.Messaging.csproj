@@ -41,6 +41,9 @@
     <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
       <HintPath>..\packages\protobuf-net.2.0.0.668\lib\net40\protobuf-net.dll</HintPath>
     </Reference>
+    <Reference Include="Sangmado.Fida.Messages, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sangmado.Fida.Messages.1.0.3.0\lib\net46\Sangmado.Fida.Messages.dll</HintPath>
+    </Reference>
     <Reference Include="Sangmado.Inka.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sangmado.Inka.Extensions.1.0.0.0\lib\net46\Sangmado.Inka.Extensions.dll</HintPath>
     </Reference>
@@ -99,10 +102,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sangmado.Fida.Messages\Sangmado.Fida.Messages.csproj">
-      <Project>{789283b2-a2f4-45bd-893f-2db89ba5404e}</Project>
-      <Name>Sangmado.Fida.Messages</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Sangmado.Fida.ServiceModel\Sangmado.Fida.ServiceModel.csproj">
       <Project>{1847d330-8b85-481e-8441-0a96ce612496}</Project>
       <Name>Sangmado.Fida.ServiceModel</Name>
